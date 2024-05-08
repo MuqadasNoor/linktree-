@@ -1,0 +1,146 @@
+body {
+  
+    background-image: url('BACKGROUND.png'); 
+    backdrop-filter: brightness(0.5);
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover; 
+   color:white;
+
+}
+
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.fa-brands{
+  padding: 0 10px 0 10px;
+ font-size: x-large;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.txt{
+  font-size:x-large;
+  
+
+}
+
+.txt2{
+font-size:large;
+}
+
+.image-container {
+  text-align: center;
+  width: 100%;
+}
+
+
+.logo{
+    margin-top: 30px;
+    border: 5px solid red; 
+            border-radius: 5px; 
+            padding: 2px;
+            background-color: white;
+}
+
+.links-container {
+  display: flex;
+  flex-direction: column;
+  
+  align-items:center;
+  
+}
+
+.link {
+  min-width: 50% !important;
+}
+
+@media (min-width: 1200px) {}.container {
+  max-width: 1140px;
+}
+@media (min-width: 992px){} .container {
+  max-width: 960px;
+}
+@media (min-width: 768px) {
+.container {
+    max-width: 720px;
+  }
+
+.link {
+    width: 100%;
+  }
+}
+@media (min-width: 576px) {
+.container {
+    max-width: 540px;
+  }
+}
+
+.link-section {
+  width: 560px;
+  height: 35px;
+  border-radius: 10px;
+  font-size: larger;
+  padding-top: 8px ;
+  text-decoration: none;
+  text-align: center;
+color: black!important;
+background-color: white !important;
+}
+.link-section:hover{
+  border: 2px solid red;
+  margin-left: 8px;
+  
+}
+.fa-facebook{
+  color:blue;
+  
+}
+.fa-square-whatsapp,.fa-whatsapp{
+  color:green;
+  
+}
+.fa-square-instagram{
+  color: #833AB4}
+  .fa-square-instagram{
+  color:#3F729B}
+  .fa-square-instagram{
+    color:#E4405F;
+}
+  
+
+.fa-youtube{
+  color:red;
+  
+}
+.fa-linkedin{
+
+  color:blue;
+  
+}
+
+.text
+{
+  justify-content: center;
+}
+.icons-3{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+footer{
+  text-align: center;
+  background-color: black;
+  margin-top: 20px;
+  margin: 10px 10px;
+  padding: 40px 20px;
+  
+}
